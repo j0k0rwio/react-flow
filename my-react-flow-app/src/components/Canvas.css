@@ -1,0 +1,53 @@
+.canvas-container {
+  display: flex;
+  height: 100%;
+}
+
+.left-panel {
+  width: 200px; /* Adjust width as needed */
+  background-color: #f0f0f0; /* Example background color */
+  padding: 20px;
+}
+
+.tool {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ccc; /* Example background color */
+  cursor: pointer;
+}
+
+.tool:hover {
+  background-color: #ddd; /* Example background color on hover */
+}
+
+.canvas {
+  flex: 1;
+  background-color: #fff; /* Example background color */
+  border: 1px solid #ccc; /* Example border */
+  margin-left: 20px; /* Adjust margin as needed */
+  padding: 20px;
+}
+
+.node {
+  width: 100px; /* Example width */
+  height: 50px; /* Example height */
+  background-color: #00f; /* Example background color */
+  color: #fff; /* Example text color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Example styles for different types of nodes */
+.node.start {
+  background-color: #0f0;
+}
+
+.node.action {
+  background-color: #f00;
+}
+
+.node.decision {
+  background-color: #ff0;
+}

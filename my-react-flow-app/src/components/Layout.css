@@ -1,0 +1,52 @@
+
+.app {
+    display: flex;
+    height: 100vh;
+  }
+  
+
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .tool {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .canvas {
+    flex-grow: 1;
+    background-color: #e0e0e0;
+    position: relative;
+  }
+  
+  .element {
+    position: absolute;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .panel {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .panel h2 {
+    margin-bottom: 10px;
+  }
+  
