@@ -22,14 +22,11 @@
 .tool {
   margin-bottom: 10px;
   padding: 10px;
-  background-color: #ccc; /* Example background color */
+  background-color: #afacac; /* Example background color */
   cursor: pointer;
 }
 
 
-.tool-section {
-  /* Your existing styles for the tool section */
-}
 
 .tool-row {
   display: flex;
@@ -77,4 +74,9 @@
 
 .node.decision {
   background-color: #ff0;
+}
+.Sidebar-menu{
+  padding: 30px;
+  margin: 15px;
+  background-color: white;
 }
