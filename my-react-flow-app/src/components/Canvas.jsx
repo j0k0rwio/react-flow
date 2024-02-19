@@ -53,7 +53,7 @@ function Canvas() {
 
   return (
     <>
-      <div className="Thinbar">
+      <div className="Thinbar1">
          <h2>Manage Blueprint</h2>
          <button className="btn">Update</button>
       </div>
