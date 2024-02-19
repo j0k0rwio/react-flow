@@ -58,7 +58,7 @@ function Canvas() {
           <div className="tool-section">
             <h3>External Client</h3>
 
-            <div className="tool-row"> {toolsData.map((data) => (<button onClick={() => appendMethod(data.name)}><img src ={data.label} width={50}/></button>))}</div>
+            <div className="tool-row"> {toolsData.map((data) => (<button onClick={() => appendMethod(data.name)}>{data.label}</button>))}</div>
 
 
             {/* <div className="tool-row">
