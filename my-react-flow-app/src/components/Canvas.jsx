@@ -53,6 +53,11 @@ function Canvas() {
 
   return (
     <>
+      <div className="Thinbar">
+         <h2>Manage Blueprint</h2>
+         <button className="btn">Update</button>
+      </div>
+
       <div className="layout">
         <div className="sidebar">
           <div className="tool-section">
@@ -75,9 +80,10 @@ function Canvas() {
           
         </div>
 
+        
         <div className="canvas-container">
           <div className="canvas">
-            <div style={{ width: "85vw", height: "95vh" }}>
+            <div style={{ width: "60vw", height: "90vh" }}>
               <ReactFlow
                 nodes={nodes}
                 edges={edges}
@@ -94,6 +100,17 @@ function Canvas() {
             </div>
           </div>
         </div>
+
+        <div className="Rightbar">
+         <h3 className="title">Edit Properties</h3>
+         <div className="first "></div>
+         <div className="second"></div>
+         <div className="third"></div>
+         <div className="four"></div>
+         <div className="five"></div>
+      </div>
+
+
       </div>
     </>
   );
