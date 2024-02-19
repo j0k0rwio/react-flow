@@ -103,11 +103,13 @@ function Canvas() {
 
         <div className="Rightbar">
          <h3 className="title">Edit Properties</h3>
-         <div className="first "></div>
-         <div className="second"></div>
-         <div className="third"></div>
-         <div className="four"></div>
-         <div className="five"></div>
+         <div className="edit"> </div>
+         <div className="edit"> </div>
+         <div className="edit"> </div>
+         <div className="edit"> </div>
+         <div className="edit"> </div>
+         <div className="edit"> </div>
+         <div className="edit"> </div>
       </div>
 
 

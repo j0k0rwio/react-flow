@@ -81,51 +81,19 @@
   background-color: white;
 }
 .Rightbar{
-  width: 250px;
+  width: 500px;
   background-color: #f0f0f0;
+  margin-left: 20px;
 }
 .title{
   padding-top: 18px;
 }
-.first{
-  padding: 20px;
+.edit{
+  padding: 50px;
+  margin: 20px 10px;
   background-color: white;
-  border-radius: 15px;
-  width: 90%;
-  margin-left: 10px;
-  margin-top: 15px;
-}
-.second{
-  padding: 90px;
-  background-color:white;
-  border-radius: 15px;
-  width: 90%;
-  margin-left: 10px;
-  margin-top: 15px;
-}
-.third{
-  padding: 20px;
-  background-color:white;
-  border-radius: 15px;
-  width: 90%;
-  margin-left: 10px;
-  margin-top: 15px;
-}
-.four{
-  padding: 90px;
-  background-color:white;
-  border-radius: 15px;
-  width: 90%;
-  margin-left: 10px;
-  margin-top: 15px;
-}
-.five{
-  padding: 20px;
-  background-color:white;
-  border-radius: 15px;
-  width: 90%;
-  margin-left: 10px;
-  margin-top: 15px;
+  border: 1px solid grey;
+  border-radius: 10px;
 }
 
 /*Thinbar*/
