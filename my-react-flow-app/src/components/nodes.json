@@ -1,27 +1,27 @@
 [
   {
     "id": "1",
-    "label": "https://www.svgrepo.com/show/452092/react.svg",
-    "name":"tools 3"
+    "label": "Tool 1",
+    "name":"tools 1"
   },
   {
     "id": "2",
-    "label": "https://www.svgrepo.com/show/452092/react.svg",
-    "name":"tools 9"
+    "label": "Tool 2",
+    "name":"tools 2"
   },
   {
     "id": "3",
-    "label": "https://www.svgrepo.com/show/452092/react.svg",
-    "name":"tools 8"
+    "label": "Tool 3",
+    "name":"tools 3"
   },
   {
     "id": "4",
-    "label": "https://www.svgrepo.com/show/452092/react.svg",
-    "name":"tools 7"
+    "label": "Tool 4",
+    "name":"tools 4"
   },
   {
     "id": "5",
-    "label": "https://www.svgrepo.com/show/452092/react.svg",
-    "name":"tools 0"
+    "label": "Tool 5",
+    "name":"tools 5"
   }
 ]

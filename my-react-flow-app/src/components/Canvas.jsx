@@ -40,7 +40,7 @@ function Canvas() {
     const newNodeId = (nodes.length + 1).toString();
     const newNode = {
       id: newNodeId,
-      position: { x: 100, y: 100 },
+      position: { x: 400, y: 400 },
       data: { label: toolData },
     };
     setNodes((prevNodes) => [...prevNodes, newNode]);
@@ -58,7 +58,7 @@ function Canvas() {
           <div className="tool-section">
             <h3>External Client</h3>
 
-            <div className="tool-row"> {toolsData.map((data) => (<button onClick={() => appendMethod(data.name)}><img src ={data.label} width={50}/></button>))}</div>
+            <div className="tool-row"> {toolsData.map((data) => (<button className="Sidebar-menu" onClick={() => appendMethod(data.name)}>{data.label}</button>))}</div>
 
 
             {/* <div className="tool-row">
