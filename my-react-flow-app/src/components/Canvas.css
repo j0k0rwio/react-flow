@@ -100,4 +100,5 @@
 .Thinbar1{
   background-color:wheat;
   padding: 5px;
+  display: flex;
 }

@@ -7,8 +7,6 @@ import 'bootstrap/dist/js/bootstrap';
 
 import Navbar from './components/Navbar';
 
-import EnvironmentPage from './components/EnvironmentPage';
-
 
 function App() {
   return (
