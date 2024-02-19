@@ -8,13 +8,13 @@
 }
 
 .sidebar {
-  width: 200px;
+  width: 250px;
   background-color: #f0f0f0;
   padding: 10px;
 }
 
 .left-panel {
-  width: 300px; /* Adjust width as needed */
+  width: 250px; /* Adjust width as needed */
   background-color: #f0f0f0; /* Example background color */
   padding: 20px;
 }
@@ -76,7 +76,60 @@
   background-color: #ff0;
 }
 .Sidebar-menu{
-  padding: 30px;
+  padding: 40px;
   margin: 15px;
   background-color: white;
+}
+.Rightbar{
+  width: 250px;
+  background-color: #f0f0f0;
+}
+.title{
+  padding-top: 18px;
+}
+.first{
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.second{
+  padding: 90px;
+  background-color:white;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.third{
+  padding: 20px;
+  background-color:white;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.four{
+  padding: 90px;
+  background-color:white;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.five{
+  padding: 20px;
+  background-color:white;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+/*Thinbar*/
+.Thinbar{
+  background-color:wheat;
+  padding: 5px;
 }
