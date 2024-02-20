@@ -54,16 +54,27 @@ function Canvas() {
   return (
     <>
       <div className="Thinbar1">
-         <h2>Manage Blueprint</h2>
+         <h5>Manage Blueprint</h5>
          <button className="btn">Update</button>
       </div>
 
       <div className="layout">
         <div className="sidebar">
           <div className="tool-section">
-            <h3>External Client</h3>
+            <h3>Tools</h3>
 
-            <div className="tool-row"> {toolsData.map((data) => (<button className="Sidebar-menu" onClick={() => appendMethod(data.name)}>{data.label}</button>))}</div>
+            <div className="tool-row"> 
+            <div className="group1"> 
+            <div><h6>SBB</h6></div>
+            <div>
+            {toolsData.map((data) => 
+            (<button className="Sidebar-menu" 
+            onClick={() => appendMethod(data.name)}>
+              {data.label}</button>)
+              )}
+            </div>
+            
+            </div></div>
 
 
             {/* <div className="tool-row">

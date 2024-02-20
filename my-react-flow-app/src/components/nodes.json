@@ -1,18 +1,18 @@
 [
   {
-    "id": "1",
-    "label": "Tool 1",
-    "name":"tools 1"
+    "id": "EC2",
+    "label": "EC2",
+    "name":"EC2"
   },
   {
-    "id": "2",
-    "label": "Tool 2",
-    "name":"tools 2"
+    "id": "VPC",
+    "label": "VPC",
+    "name":"VPC"
   },
   {
-    "id": "3",
-    "label": "Tool 3",
-    "name":"tools 3"
+    "id": "RDS",
+    "label": "RDS",
+    "name":"RDS"
   },
   {
     "id": "4",

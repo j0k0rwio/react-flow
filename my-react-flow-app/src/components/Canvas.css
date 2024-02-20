@@ -5,16 +5,17 @@
 
 .layout {
   display: flex;
+  margin-top: 2px
 }
 
 .sidebar {
-  width: 250px;
+  width: 450px;
   background-color: #f0f0f0;
   padding: 10px;
 }
 
 .left-panel {
-  width: 250px; /* Adjust width as needed */
+  width: 450px; /* Adjust width as needed */
   background-color: #f0f0f0; /* Example background color */
   padding: 20px;
 }
@@ -76,9 +77,13 @@
   background-color: #ff0;
 }
 .Sidebar-menu{
-  padding: 40px;
-  margin: 15px;
-  background-color: white;
+  padding: 0px 15px;
+  margin: 10px 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4.5px;
+  height: 29px;
+  box-shadow: #00000026 !important;
+  
 }
 .Rightbar{
   width: 500px;
@@ -101,4 +106,22 @@
   background-color:wheat;
   padding: 5px;
   display: flex;
+  justify-content: space-between;
+  padding: 0px 40px
+}
+.group1{
+  padding: 10px 10px  ;
+  background-color:rgb(172, 173, 173);
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  text-align: left;
+  /* margin-bottom: 10px; */
+}
+
+.title-bar {
+  text-align: left;
+}
+.btn{
+  background-color: rgb(164, 228, 249) !important;
 }
