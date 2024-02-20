@@ -79,10 +79,11 @@
 .Sidebar-menu{
   padding: 0px 15px;
   margin: 10px 5px;
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   border-radius: 4.5px;
   height: 29px;
-  box-shadow: #00000026 !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
   
 }
 .Rightbar{
@@ -103,7 +104,7 @@
 
 /*Thinbar*/
 .Thinbar1{
-  background-color:wheat;
+  background-color:rgb(244, 242, 239);
   padding: 5px;
   display: flex;
   justify-content: space-between;
@@ -111,12 +112,15 @@
 }
 .group1{
   padding: 10px 10px  ;
-  background-color:rgb(172, 173, 173);
+  background-color:white;
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-around; */
   text-align: left;
   /* margin-bottom: 10px; */
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .title-bar {
