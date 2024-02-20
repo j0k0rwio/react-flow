@@ -34,8 +34,11 @@ const initialEdges = [
 function Canvas() {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-  const [tools, setTools] = useState ("");
-  
+
+  const [tools, setTools] = useState ("EC2");
+  const displayRight = (toolData) => {
+      console.log(toolData)
+  }
   const appendMethod = (toolData) => {
     const newNodeId = (nodes.length + 1).toString();
     const newNode = {
@@ -44,6 +47,8 @@ function Canvas() {
       data: { label: toolData },
     };
     setNodes((prevNodes) => [...prevNodes, newNode]);
+    displayRight(toolData)
+    setTools (toolData)
   };
 
   const onConnect = useCallback(
@@ -114,13 +119,24 @@ function Canvas() {
 
         <div className="Rightbar">
          <h3 className="title">Edit Properties</h3>
-         <div className="edit"> </div>
-         <div className="edit"> </div>
-         <div className="edit"> </div>
-         <div className="edit"> </div>
-         <div className="edit"> </div>
-         <div className="edit"> </div>
-         <div className="edit"> </div>
+         <div className="edit">{
+          toolsData
+          .filter((filterItem) => filterItem.name == tools) 
+          .map((i) => (
+            <div>
+              {i.properties.map((j) => (
+                <div>
+                  <h6>{j.pName}</h6>
+                  <p>{j.pSubName.map((k) => (
+                    <div>
+                      {k}
+                    </div>
+                  ))}</p>
+                </div>
+              ))}
+            </div>
+          ))
+         } </div>
       </div>
 
 

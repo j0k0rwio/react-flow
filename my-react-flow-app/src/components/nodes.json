@@ -2,26 +2,46 @@
   {
     "id": "1",
     "label": "EC2",
-    "name":"EC2"
+    "name":"EC2",
+    "properties":[{
+      "pName":"Resources","pSubName":["Elasticn IPS","Instance","Key pair","Instance running","Auto Selling Rroup"]
+    },
+  {"pName":"Launch Instance","pSubName":["Launch Instance","Migrate < server"]}]
   },
   {
     "id": "2",
     "label": "VPC",
-    "name":"VPC"
+    "name":"VPC",
+    "properties":[{
+      "pName":"Resource to Create","pSubName":["vpc only","vpc and more"]
+    },
+  {"pName":"Name Tag Auto Generate","pSubName":["Auto Generate"]}]
   },
   {
     "id": "3",
     "label": "RDS",
-    "name":"RDS"
+    "name":"RDS",
+    "properties":[{
+      "pName":"Resources","pSubName":["Elasticn IPS","Instance","Key pair","Instance running","Auto Selling Rroup"]
+    },
+  {"pName":"Launch Instance","pSubName":["Launch Instance","Migrate < server"]}]
   },
   {
     "id": "4",
     "label": "ABC",
-    "name":"ABc"
+    "name":"ABc",
+    "properties":[{
+      "pName":"Resources","pSubName":["Elasticn IPS","Instance","Key pair","Instance running","Auto Selling Rroup"]
+    },
+  {"pName":"Launch Instance","pSubName":["Launch Instance","Migrate < server"]}]
   },
   {
     "id": "5",
     "label": "XYZ",
-    "name":"XYZ"
+    "name":"XYZ",
+    "properties":[{
+      "pName":"Resources","pSubName":["Elasticn IPS","Instance","Key pair","Instance running","Auto Selling Rroup"]
+    },
+  {"pName":"Launch Instance","pSubName":["Launch Instance","Migrate < server"]}]
   }
 ]
